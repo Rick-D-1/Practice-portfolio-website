@@ -1,0 +1,95 @@
+.open-sans-normal {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+/* style link */
+
+
+/* Hearder section style */
+.first-box-section {
+    background-image: linear-gradient(to top,
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)), url("../images/Banner\ Image.png");
+    background-repeat: no-repeat;
+    height: 600px;
+    width: 1320px;
+    border-radius: 26px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 80px;
+    text-align: center;
+
+    text-shadow: 2px 2px 4px #000000;
+
+}
+
+.cel {
+    font-size: 95px;
+}
+
+section h3 {
+    font-weight: 600;
+    padding: 0px 10px 0 0;
+}
+
+/* offer section */
+
+.offer-section {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 7px;
+
+}
+
+.img-offer {
+    height: 400px;
+}
+
+.offer-div h1 {
+    font-size: 60px;
+    color: #FF0000;
+
+}
+
+.offer-div p {
+    color: #FF0000;
+}
+
+.offer-div h3 {
+    font-weight: 700;
+    size: 30px;
+}
+
+/* join section */
+.join-section {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)), url("../images/Vectorrr.png");
+
+    background-repeat: no-repeat;
+    height: 600px;
+    width: 1320px;
+    border-radius: 26px;
+    color: white;
+    display: flex;
+    padding-left: 110px;
+    margin-left: 80px;
+    align-items: center;
+    margin-top: 30px;
+
+}
+
+.join-div h1 {
+    font-size: 50px;
+}
+
+.join-div a {
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+}
