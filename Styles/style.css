@@ -122,3 +122,65 @@ section h3 {
     color: white;
     font-weight: 700;
 }
+
+/* comming soon section */
+.commingsoon-section {
+    height: 600px;
+    width: 1340px;
+    margin-left: 70px;
+
+
+}
+
+.commingsoon-div {
+    display: flex;
+
+    gap: 10%;
+
+
+
+
+
+}
+
+.left-div h3 {
+    color: #FF0000;
+}
+
+.left-div h1 {
+    font-size: 30px;
+}
+
+.left-div {
+    word-wrap: break-word;
+
+
+
+
+}
+
+
+
+
+.midlle-div img {
+    border: 10px solid #FF0000;
+    border-radius: 50%;
+    padding: 20px;
+    height: 250px;
+
+}
+
+.right-div {
+    word-wrap: break-word;
+    display: inline;
+    padding-left: 80px;
+
+
+
+
+
+}
+
+.right-div h1 {
+    color: #FF0000;
+}
